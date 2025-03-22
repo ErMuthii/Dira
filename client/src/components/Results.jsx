@@ -15,7 +15,7 @@ const Results = () => {
         title: 'Investment Banking Analyst',
         description: 'Analyze financial data, create financial models, and assist in M&A transactions and securities offerings.',
         skills: ['Financial Modeling', 'Valuation', 'Due Diligence', 'Excel'],
-        salary: '$85,000 - $120,000',
+        salary: 'Ksh85,000 - Ksh120,000',
         outlook: 'Moderate Growth',
         details: 'Investment banking analysts work directly with clients on high-profile financial transactions. The role involves long hours but offers exceptional experience and networking opportunities. Advancement typically leads to associate roles within 2-3 years.'
       },
@@ -24,7 +24,7 @@ const Results = () => {
         title: 'Financial Advisor',
         description: 'Provide personalized financial guidance to clients on investments, retirement planning, and wealth management.',
         skills: ['Client Relationship Management', 'Financial Planning', 'Investment Analysis'],
-        salary: '$65,000 - $135,000',
+        salary: 'Ksh65,000 - Ksh135,000',
         outlook: 'Strong Growth',
         details: 'Financial advisors build long-term relationships with clients, helping them achieve financial goals through personalized strategies. Success depends heavily on building a client base, with earning potential increasing significantly with experience and assets under management.'
       },
@@ -33,7 +33,7 @@ const Results = () => {
         title: 'Corporate Finance Analyst',
         description: 'Evaluate financial performance, prepare forecasts, and assist with budgeting and strategic financial planning.',
         skills: ['Financial Analysis', 'Budgeting', 'Forecasting', 'Strategic Planning'],
-        salary: '$70,000 - $95,000',
+        salary: 'Ksh70,000 - Ksh95,000',
         outlook: 'Stable',
         details: 'Corporate finance analysts work within organizations to optimize financial operations and support strategic decision-making. The role offers more predictable hours than investment banking while still providing exposure to complex financial challenges and business operations.'
       }
@@ -44,7 +44,7 @@ const Results = () => {
         title: 'FinTech Product Manager',
         description: 'Lead the development of innovative financial technology products that transform how people and businesses manage money.',
         skills: ['Product Development', 'Financial Services Knowledge', 'User Experience', 'Agile Methodologies'],
-        salary: '$95,000 - $160,000',
+        salary: 'Ksh95,000 - Ksh160,000',
         outlook: 'Rapid Growth',
         details: 'FinTech product managers sit at the intersection of finance, technology, and user experience. They identify market opportunities and lead cross-functional teams to create innovative financial products. This role combines financial expertise with the dynamic pace of tech startups.'
       },
@@ -53,7 +53,7 @@ const Results = () => {
         title: 'ESG Investment Analyst',
         description: 'Analyze investments based on environmental, social, and governance criteria to support sustainable and ethical investing.',
         skills: ['ESG Analysis', 'Impact Assessment', 'Sustainable Finance', 'Research'],
-        salary: '$75,000 - $110,000',
+        salary: 'Ksh75,000 - Ksh110,000',
         outlook: 'High Growth',
         details: 'ESG analysts evaluate investments through sustainability and ethical lenses. As more investors prioritize social and environmental impact alongside financial returns, these specialists help identify opportunities that align with both financial goals and values-based criteria.'
       },
@@ -62,7 +62,7 @@ const Results = () => {
         title: 'Blockchain Financial Strategist',
         description: 'Develop and implement blockchain-based financial solutions for organizations seeking to leverage decentralized finance innovations.',
         skills: ['Blockchain Technology', 'Cryptocurrency', 'Smart Contracts', 'Financial Systems'],
-        salary: '$100,000 - $180,000',
+        salary: 'Ksh100,000 - Ksh180,000',
         outlook: 'Emerging Field',
         details: 'Blockchain financial strategists help organizations navigate the rapidly evolving world of decentralized finance. They identify opportunities to implement blockchain solutions that enhance security, reduce costs, or create new financial products and services.'
       }
@@ -74,7 +74,7 @@ const Results = () => {
   };
 
   return (
-    <div className="min-h-screen bg-blue-50 py-8">
+    <div className="min-h-screen py-8 " style={{ backgroundColor: "#fef9ef" }}>
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Results Header */}
         <div className="bg-white rounded-xl shadow-md p-8 mb-8">
@@ -220,9 +220,11 @@ const Results = () => {
                 <p className="text-gray-600">Get personalized training recommendations for your chosen path.</p>
               </div>
               <div className="flex space-x-4">
+                <Link to='/assessment'>
                 <button className="px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">
                   Retake Assessment
                 </button>
+                </Link>
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                   Explore Training Programs
                 </button>

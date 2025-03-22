@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="flex flex-col justify-between min-h-screen" style={{ backgroundColor: "#fef9ef" }}>
         <main className="mb-auto">
-         
+         <Navigation />
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/assessment" element={<Assessment />} />
