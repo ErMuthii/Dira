@@ -27,22 +27,24 @@ const Hero = () => {
           </div>
           <div className="flex items-center space-x-4">
             <button className="text-gray-700 hover:text-blue-700 font-medium">Join</button>
+            <Link to="/assessment">
             <button className="px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">Start</button>
+            </Link>
           </div>
         </div>
       </nav>
 
-      {/* Hero Section - Updated to match design */}
+      {/* Hero Section */}
       <div className="container mx-auto px-6 py-16">
         <div className="bg-blue-100 rounded-xl overflow-hidden">
           <div className="flex flex-col md:flex-row">
             {/* Left column - Text content */}
             <div className="md:w-1/2 p-12 flex flex-col justify-center">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Discover Your Future with Risk Hackers
+                Fast track Your Future with Dira
               </h1>
               <p className="text-lg text-gray-700 mb-8">
-                At Risk Hackers, we empower students to uncover their strengths and connect with high-growth careers. Our mission is to bridge the education-employment gap, making career discovery seamless and effective.
+                At Dira, we empower students to uncover their strengths and connect with high-growth careers. Our mission is to bridge the education-employment gap, making career discovery seamless and effective.
               </p>
               <div className="flex space-x-4">
                 
@@ -57,13 +59,9 @@ const Hero = () => {
             
             {/* Right column - Image */}
             <div className="md:w-1/2">
-              {/* <img 
-                src="/api/placeholder/600/500" 
-                alt="Students collaborating" 
-                className="w-full h-full object-cover"
-              /> */}
               <DotLottieReact 
-                path='example/client/src/assets/decisions.lottie'
+                src='https://lottie.host/92486076-7b64-4cfd-b81c-52fcb7204c9a/YENAinBtyt.lottie'
+               
                 autoplay={true} 
                 loop={true} 
                 style={{width: "100%", height: "100%"}}
@@ -76,9 +74,9 @@ const Hero = () => {
       {/* How It Works Section */}
       <section id="how-it-works" className="py-16 bg-white" >
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">How Risk Hackers Works</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">How Dira Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-custom p-8 rounded-lg shadow-md transition-transform hover:transform hover:scale-105">
+            <div className="bg-blue-50 p-8 rounded-lg shadow-md transition-transform hover:transform hover:scale-105">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl mb-4">1</div>
               <h3 className="text-xl font-semibold mb-3">Take the Assessment</h3>
               <p className="text-gray-700">Complete our comprehensive career assessment designed to identify your unique strengths, interests, and work preferences.</p>
@@ -96,7 +94,7 @@ const Hero = () => {
           </div>
           <div className="text-center mt-12">
             <Link to="/assessment">
-              <Button className="px-8 py-4 bg-custom text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">
+              <Button className="px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">
                 Start Your Assessment
               </Button>
             </Link>
@@ -156,7 +154,7 @@ const Hero = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <div className="text-xl font-bold">Risk Hackers</div>
+              <div className="text-xl font-bold">Dira</div>
               <div className="text-sm text-gray-500 mt-2">© 2025 Hack The Globe Project</div>
             </div>
             <div className="flex flex-wrap justify-center space-x-8">
