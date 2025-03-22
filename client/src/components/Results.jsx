@@ -96,12 +96,7 @@ const Results = () => {
                 <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm mr-2 mb-2">Strategic Planning</span>
               </div>
             </div>
-            <Link 
-              to="/assessment-details" 
-              className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              View Full Assessment Report
-            </Link>
+          
           </div>
         </div>
 
@@ -225,9 +220,11 @@ const Results = () => {
                   Retake Assessment
                 </button>
                 </Link>
+                <Link to='/roadmap'>
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                   Explore Training Programs
                 </button>
+                </Link>
               </div>
             </div>
           </div>

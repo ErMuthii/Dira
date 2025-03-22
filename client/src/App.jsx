@@ -7,6 +7,10 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Assessment from "./components/Assessment";
 import Results from "./components/Results";
+import Login from "./components/Login";
+import AssessmentIntro from "./components/AssessmetIntro";
+import Loading from "./components/Loading";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/assessment" element={<Assessment />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/results" element={<Results/>} />
+            <Route path="/assessmentintro" element={<AssessmentIntro/>} />
+            <Route path="/loading" element={<Loading />} />
+            <Route path="/roadmap" element={<Roadmap/>} /> 
           </Routes>
         </main>
       </div>

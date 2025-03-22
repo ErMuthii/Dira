@@ -68,7 +68,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="text-center mt-12">
-            <Link to="/assessment">
+            <Link to="/login">
               <Button className="px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">
                 Start Your Assessment
               </Button>
