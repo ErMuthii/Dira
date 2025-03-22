@@ -6,7 +6,9 @@ const Navigation = () => {
     <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-black">Logo</div>
+            <Link to="/">
+            <div className="text-2xl font-bold text-black">Dira</div>
+            </Link>
             <div className="ml-12 space-x-6 hidden md:flex">
               <a href="#assessment" className="text-gray-700 hover:text-blue-700">Career Assessment</a>
               <a href="#training" className="text-gray-700 hover:text-blue-700">Training Programs</a>

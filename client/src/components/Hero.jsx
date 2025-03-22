@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '@heroui/react';
+import { Button,Image } from '@heroui/react';
 import {DotLottieReact} from '@lottiefiles/dotlottie-react';
 
 const Hero = () => {
@@ -116,11 +116,13 @@ const Hero = () => {
           
           <div className="md:w-1/2 md:pl-12">
             <img 
-              src="/api/placeholder/600/500" 
+              // src="client/src/assets/paths.jpeg" 
               alt="Students exploring career options" 
               className="w-full h-full object-cover rounded-lg"
             />
+          
           </div>
+          
         </div>
       </div>
 
