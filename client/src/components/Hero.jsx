@@ -116,7 +116,6 @@ const Hero = () => {
           
           <div className="md:w-1/2 md:pl-12">
             <img 
-              // src="client/src/assets/paths.jpeg" 
               alt="Students exploring career options" 
               className="w-full h-full object-cover rounded-lg"
             />
