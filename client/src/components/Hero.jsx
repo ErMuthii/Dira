@@ -115,11 +115,12 @@ const Hero = () => {
           </div>
           
           <div className="md:w-1/2 md:pl-12">
-            <img 
-              alt="Students exploring career options" 
-              className="w-full h-full object-cover rounded-lg"
+            <DotLottieReact
+              src='https://lottie.host/89207633-3e36-491a-9172-d0bde1b1ac12/nWWj80i4Ug.lottie'
+              autoplay={true}
+              loop={true}
+              style={{width: "100%", height: "100%"}}
             />
-          
           </div>
           
         </div>
