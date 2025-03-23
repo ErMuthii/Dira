@@ -22,10 +22,11 @@ const Hero = () => {
                 At Dira, we empower students to uncover their strengths and connect with high-growth careers. Our mission is to bridge the education-employment gap, making career discovery seamless and effective.
               </p>
               <div className="flex space-x-4">
-                
+                <Link to="login">
                 <Button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">
                   Get Started
                 </Button>
+                </Link>
                 <Button className="px-6 py-3 bg-gray-200 text-gray-700 font-medium rounded-lg hover:bg-gray-300 transition">
                   Learn More
                 </Button>
